@@ -1,0 +1,52 @@
+.director {
+    padding: 40px 0 15px;
+}
+
+.director div {
+    display: table-cell;
+    height: 100%;
+    vertical-align: top;
+}
+
+.director .title {
+    border-right: 1px solid #ccc;
+    font-size: 45px;
+    line-height: 1.2em;
+    padding: 0 4% 0 0;
+    width: 25%;
+}
+
+.director .photo {
+    padding: 0 0 0 4%;
+    width: 20%;
+}
+
+.director .photo img {
+    border-radius: 250px;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.director .info {
+    padding: 0 0 0 3%;
+    width: 37%;
+}
+
+h2.persn {
+    font-family: Cambria,Georgia,serif;
+    font-size: 23px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+h2.persn {
+    font-family: Cambria,Georgia,serif;
+    font-size: 23px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 23px;
+}
