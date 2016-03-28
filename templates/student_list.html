@@ -1,95 +1,109 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta content="" name="description">
-    <meta content="Orest Stetsiak" name="author">
-    <link href="../static/images/favicon.png" rel="icon">
-    <title>Students</title><!-- Bootstrap core CSS -->
-    <link href="../static/css/bootstrap.css" rel="stylesheet">
-    <link href="../static/css/style.css" rel="stylesheet">
-    <link href="../static/css/jumbotron.css" rel="stylesheet">
-</head>
-<body>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Студенты - pyBursa</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="../static/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../static/css/theme.css" rel="stylesheet">
+  </head>
+
+  <body role="document">
+
+    <!-- Fixed navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button aria-controls="navbar" aria-expanded="false" class=
-                "navbar-toggle collapsed" data-target="#navbar" data-toggle=
-                "collapse" type="button"><span class="sr-only">Toggle
-                navigation</span> <span class="icon-bar"></span> <span class=
-                "icon-bar"></span> <span class="icon-bar"></span></button>
-                <a class="navbar-brand" href="index.html">Main</a> <a class=
-                "navbar-brand" href="contact.html">Contacts</a> <a class=
-                "navbar-brand" href="student_list.html">Students</a>
-            </div>
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img class="logo" src="../static/img/logo.png" />
+          </a>
         </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+            <li><a href="student_list.html">Студенты</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </nav>
-    <div class="jumbotron">
-        <div class="container">
-            <h2>PyBursa students list</h2>
-            <h6>group started Nov 19, 2015</h6>
+
+    <div class="container theme-showcase" role="main">
+
+      <div class="page-header">
+        <h2>Список студентов</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>фамилия имя</th>
+                <th>адрес</th>
+                <th>skype</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td><a href="student_detail.html">Петров Петр</a></td>
+                <td>Харьков ул.Петровского 12</td>
+                <td>pety.pety</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td><a href="student_detail.html">Иванов Иван</a></td>
+                <td>Харьков ул.Иванова 34</td>
+                <td>vano.vano</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td><a href="student_detail.html">Сидорова Ира</a></td>
+                <td>Киев ул.Сидорова 37</td>
+                <td>ira.ira</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td><a href="student_detail.html">Бондаренко Екатерина</a></td>
+                <td>Харьков ул.Сумская 101</td>
+                <td>katy.katy</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td><a href="student_detail.html">Бондаренко Сергей</a></td>
+                <td>Харьков ул.Сумская 101</td>
+                <td>sergey.sergey</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-        <div class="container" role="main">
-            <h2>Program</h2>
-            <div class="table-responsive">
-                <table class="table table-striped" width="10">
-                    <tbody>
-                        <tr>
-                            <th>No</th>
-                            <th>Surname</th>
-                            <th>Name</th>
-                            <th>Address</th>
-                            <th>Skype</th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="student_detail.html">1</a>
-                            </td>
-                            <td>Narendra</td>
-                            <td>Modi</td>
-                            <td>2820 Church Street Atwater, CA 95301</td>
-                            <td>narendra_modi</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Jeff</td>
-                            <td>Bezos</td>
-                            <td>7252 Cedar Court Dorchester Center, MA
-                            02124</td>
-                            <td>jeff_bezos</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Jamie</td>
-                            <td>Dimon</td>
-                            <td>3093 6th Street WestErie, PA 16506</td>
-                            <td>jamie_dimon</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Rex</td>
-                            <td>Tillerson</td>
-                            <td>106 Queen Street Ogden, UT 84404</td>
-                            <td>rex_tillerson</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Mario</td>
-                            <td>Draghi</td>
-                            <td>240 Roosevelt Avenue Butler, PA 16001</td>
-                            <td>mario_draghi</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <script src=
-        "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
-        </script> 
-        <script src="../static/js/bootstrap.js">
-        </script> 
-    </div>
-</body>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../static/bootstrap/js/bootstrap.min.js"></script>
+  </body>
 </html>
