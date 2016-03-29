@@ -1,0 +1,87 @@
+body {
+    padding-top: 70px;
+}
+
+h2, h3 {
+    color: #4A336F;
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.navbar-default .navbar-brand {
+    font-weight: bold;
+    color: #4A336F;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #4A336F;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #e7e7e7;
+    color: #4A336F;
+}
+
+.thumbnail {
+    padding-top: 35px;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.page-header {
+    font-weight: bold;
+    border-bottom: none;
+    padding-bottom: 30px;
+}
+
+.anchorjs-link {
+    color: #4A336F;
+}
+
+.anchorjs-link:focus, .anchorjs-link:hover {
+    opacity: 1;
+    text-decoration: none;
+    color: #4A336F;
+}
+
+.back-to-top {
+    bottom: 18px;
+    display: none;
+    position: fixed;
+    right: 15px;
+}
+
+.back-to-top i {
+    background-color: #444;
+    border-radius: 2px;
+    color: #fff;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    transition: all 0.2s ease-in-out 0s;
+    width: 36px;
+}
+
+.back-to-top:hover i {
+    background-color: #4A336F;
+    text-decoration: none;
+}
+
+.back-to-top:hover {
+    text-decoration: none;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
