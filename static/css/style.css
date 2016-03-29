@@ -16,6 +16,7 @@
 .media-heading
 {
     text-align: center;
+    
 }
 .media-text
 {
@@ -26,7 +27,6 @@
 {
     width: 200px;
     text-align: center;
-    /*height: 100px;*/
 }
 .jambotron
 {
@@ -50,5 +50,9 @@
 }
 .thumbnail-text
 {
-    text-align: center;
+    text-align: left;
+}
+.program-text
+{
+    text-align: left;
 }
