@@ -1,0 +1,33 @@
+body{
+padding: 20px;
+background-color: #F5F5F5;}
+
+ul li{
+list-style-type: none;
+}
+
+footer{
+    text-align: center;
+}
+
+.manager{
+ background-color:#F0F8FF;
+}
+
+.director{
+background-color:#E6E6FA;}
+
+.founder{
+background-color:#66CDAA;}
+
+.img-circle{
+background-color:#5F9EA0;
+padding: 10px;}
+
+.panel{
+margin: 5px;}
+
+.panel .panel-primary .panel-heading img{
+width:120px;
+height:120px;}
+
