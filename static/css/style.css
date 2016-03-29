@@ -2,76 +2,76 @@ body {
     background-color:grey;
 }
 
-#PythonLetter {
+span#PythonLetter {
     color:blue;
 }
 
-#PythonOther {
+span#PythonOther {
     color:yellow;
 }
 
-#PyDes {
+span#PyDes {
     color:white;
 }
 
-#PBname {
+span#PBname {
     color:blue;
 }
 
-#PyBursaText {
+p#PyBursaText {
     color:grey;
 }
 
-#ProgramText {
+p#ProgramText {
     color:grey;
 }
 
-#Des {
+span#Des {
     color:black;
 }
 
-#Prg {
+span#Prg {
     color:black;
 }
 
-#Lor {
+span#Lor {
     color:red
 }
 
-#Title {
+span#Title {
     color:black;
     font-weight:bolder;
 }
 
-#Name {
+p#Name {
     color:green;
 }
 
-#Skype {
+p#Skype {
     color:blue;
 }
 
-#Email {
+p#Email {
     color:silver;
 }
 
-#Phone {
+p#Phone {
     color:red;
 }
 
-#NameDes {
+span#NameDes {
     color:black;
 }
 
-#SkypeDes {
+span#SkypeDes {
     color:black;
 }
 
-#EmailDes {
+span#EmailDes {
     color:black;
 }
 
-#PhoneDes {
+span#PhoneDes {
     color:black;
 }
 
