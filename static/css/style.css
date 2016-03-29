@@ -7,7 +7,6 @@ margin: auto;
 }
 .container{
   width: auto;
-  margin-top: 10px;
   margin-bottom: 5px;
 }
 .jumbotron {
@@ -54,4 +53,7 @@ margin-left: 10px;
 .company{
 width: 450px;
 margin: auto;
+}
+a{
+margin-left: 10px;
 }
