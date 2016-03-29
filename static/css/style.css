@@ -2,10 +2,24 @@ body{
 padding: 20px;
 background-color: #F5F5F5;}
 
+<<<<<<< HEAD
+.director ul li{
+list-style-type: none;
+}
+
+.manager li{
+list-style-type: circle;
+}
+.founder li{
+list-style-type:square;
+}
+
+=======
 ul li{
 list-style-type: none;
 }
 
+>>>>>>> 3bb3af4bd25a202cfe2212619dd4822cd795a1ec
 footer{
     text-align: center;
 }
@@ -34,3 +48,20 @@ height:120px;}
 .muted{
 color: #0000CD;}
 
+<<<<<<< HEAD
+.list-group-item{
+color: #48D1CC;}
+
+.text-info{
+background-color:#F8F8FF;
+}
+ol .list-group-item{
+background-color:#F5F5F5;}
+ol{
+background-color:#DCDCDC;}
+.panel-info .panel-body{
+background-color: #696969;}
+
+
+=======
+>>>>>>> 3bb3af4bd25a202cfe2212619dd4822cd795a1ec
