@@ -1,0 +1,25 @@
+.media-object
+{
+    border: 10px;
+    border-color: black;
+    width: 160px;
+    height: 160px;
+}
+.media-heading
+{
+    text-align: center;
+}
+.media-text
+{
+    text-align: justify
+}
+.size-img
+{
+    width: 80px;
+    /*height: 100px;*/
+}
+.jambotron
+{
+    text-align: center;
+}
+
