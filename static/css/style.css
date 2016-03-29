@@ -1,20 +1,76 @@
-li#v1 {}
-li#v2 {}
-li#v3 {}
-li#v4 {}
-li#v5 {}
-li#v6 {}
-li#v7 {}
-li#v8 {}
-li#v9 {}
-li#v10 {}
-li#v11 {}
-li#v12 {}
-li#v13 {}
-li#v14 {}
-li#v15 {}
-li#v16 {}
-li#v17 {}
-li#v18 {}
-li#v19 {}
-li#v20 {}
+body {
+    background-color:grey;
+}
+
+#PythonLetter {
+    color:blue;
+}
+
+#PythonOther {
+    color:yellow;
+}
+
+#PyDes {
+    color:white;
+}
+
+#PBname {
+    color:blue;
+}
+
+#PyBursaText {
+    color:grey;
+}
+
+#ProgramText {
+    color:grey;
+}
+
+#Des {
+    color:black;
+}
+
+#Prg {
+    color:black;
+}
+
+#Lor {
+    color:red
+}
+
+#Title {
+    color:black;
+    font-weight:bolder;
+}
+
+#Name {
+    color:green;
+}
+
+#Skype {
+    color:blue;
+}
+
+#Email {
+    color:silver;
+}
+
+#Phone {
+    color:red;
+}
+
+#NameDes {
+    color:black;
+}
+
+#SkypeDes {
+    color:black;
+}
+
+#EmailDes {
+    color:black;
+}
+
+#PhoneDes {
+    color:black;
+}
