@@ -1,0 +1,57 @@
+body{
+font-family: Verdana, sans-serif;
+}
+.common{
+width: 1000px;
+margin: auto;
+}
+.container{
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.jumbotron {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.jumbotron h1, h1{
+ font-size: 28px;
+}
+.jumbotron h2, h2{
+ font-size: 24px;
+}
+.jumbotron p{
+ font-size: 16px;
+ text-indent: 25px;
+}
+.active a{
+font-size: 125%;
+}
+.blog{
+width: 200px;
+float: left;
+margin-right: 15px;
+}
+.badge{
+background-color: #337ab7;
+}
+.row:before, .row:after{
+display: inline; 
+margin-top: 20px;
+}
+.foto{
+width: 300px;
+}
+.organized{
+margin-top: 20px;
+}
+h3, h2, h1, .jumbotron h1{
+text-align: center;
+}
+p label{
+margin-left: 10px;
+}
+.company{
+width: 450px;
+margin: auto;
+}
