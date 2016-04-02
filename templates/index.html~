@@ -23,11 +23,11 @@
   </div>
 </nav>
 <div class="container">
-   <div class=jumbotron">
-  	<h1 class="head1 page-header text-right">Курсы Python/Django от Pybursa</h1>
-  	<h2 class="head2 text-uppercase text-right">Description</h2>
-  	
-	<div class="text-justify">
+   <div class="text-right">
+  	<h1 class="head1 page-header">Курсы Python/Django от Pybursa</h1>
+  	<h2 class="head2 text-uppercase">Description</h2>
+  	</div>
+	<div class="jumbotron text-justify">
 		<p>Курс <span class="word_highlight1">Python/Django</span> предназначен для начинающих программистов, которые уже имеют базовые знания <span class="word_highlight2">Python</span>
 			и хотят освоить этот язык на профессиональном уровне для web-разработки. 
 		</p>
@@ -37,7 +37,6 @@
 		<p>
 			После обучения в этом курсе вы сможете легко претендовать на позицию <span class="word_highlight3">"Junior web developer"</span> в ведущих IT-компаниях.
 		</p>
-	</div>
 	</div>
 	<div class="head2">
 			<h2 class="text-uppercase text-right">Program</h2>
