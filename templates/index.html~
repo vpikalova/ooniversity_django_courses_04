@@ -8,7 +8,6 @@
 	<link href="../static/css/style.css" rel="stylesheet">
 	<script src="../static/js/bootstrap.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	
 </head>
 <body>
 <nav class="navbar navbar-default">
@@ -23,29 +22,23 @@
   </div>
 </nav>
 <div class="container">
-   <div class="text-right">
-  	<h1 class="head1 page-header">Курсы Python/Django от Pybursa</h1>
-  	<h2 class="head2 text-uppercase">Description</h2>
-  	</div>
-	<div class="jumbotron text-justify">
-		<p>Курс <span class="word_highlight1">Python/Django</span> предназначен для начинающих программистов, которые уже имеют базовые знания <span class="word_highlight2">Python</span>
+	<div class=""> 
+		<h1 class="head1 page-header text-right">Курсы Python/Django от Pybursa</h1> 
+		<h2 class="head2 text-uppercase text-right">Description </h2> 
+		<p class="jumbotron text-justify">Python — высокоуровневый язык программирования общего назначения, ориентированный на повышение производительности разработчика и читаемости кода. Синтаксис ядра Python минималистичен. В то же время стандартная библиотека включает большой объём 
+			полезных функций. </p> 
+		<h2 class="head2 text-uppercase text-right">Program </h2> 
+		<p class="jumbotron text-justify">Курс <span class="word_highlight1">Python/Django</span> предназначен для начинающих программистов, которые уже имеют базовые знания <span class="word_highlight2">Python</span>
 			и хотят освоить этот язык на профессиональном уровне для web-разработки. 
-		</p>
-		<p>В этом курсе акцент сделан на изучение популярного web-фреймворка  <span class="word_highlight2">Django</span>. 
+		<br>
+		В этом курсе акцент сделан на изучение популярного web-фреймворка  <span class="word_highlight2">Django</span>. 
 			Используя <span class="word_highlight2">Django</span>, вы сможете значительно ускорить процесс web-разработки, создавать мощные и высоконагрузочные web-приложения.
 		</p>
-		<p>
+</div> 
+<h2 class="head2 text-uppercase text-right">Perspectives</h2>   
+	<div class="lead text-justify">
+		<p class="text_pp">
 			После обучения в этом курсе вы сможете легко претендовать на позицию <span class="word_highlight3">"Junior web developer"</span> в ведущих IT-компаниях.
-		</p>
-	</div>
-	<div class="head2">
-			<h2 class="text-uppercase text-right">Program</h2>
-	</div>
-	<div  class="lead">
-		<p class="text_pp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-			aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-			Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
 	</div>
 	<ul class="pager">
