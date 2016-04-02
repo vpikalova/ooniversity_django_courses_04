@@ -28,20 +28,28 @@
 	font-family: 'PT Serif Caption', serif;
 }
 .text_pp{
-	background:lightyellow; 
-	border:2px solid blue; 
+	background: #BFDE72; 
+	border:2px solid white; 
 	 padding-top: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
 }
 .text_pp2{
-	background:#D5F0F0; 
-	border:2px solid blue; 
+	background:#BF8E97; 
+	border:2px solid white; 
 	 padding-top: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
+    }
+.text_pp3{
+	background:#F2AD85; 
+	border:2px solid white; 
+	 padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;    
 }
 .head_padding{
 	padding-top: 10px;

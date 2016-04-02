@@ -26,15 +26,15 @@
     <div class="container">
         <h1 class="head1">Python&amp;Django from PyBursa</h1>
         <h2 class="head2 text-right">Description </h2>
-        <p class="text_pp text-justify jumbotron">Курс <span class="word_highlight1">Python/Django</span> предназначен для начинающих программистов, которые уже имеют базовые знания <span class="word_highlight2">Python</span>
+        <p class="lead text_pp text-justify jumbotron">Курс <span class="word_highlight1">Python/Django</span> предназначен для начинающих программистов, которые уже имеют базовые знания <span class="word_highlight2">Python</span>
 			и хотят освоить этот язык на профессиональном уровне для web-разработки.</p>
         <h2 class="head2 text-right">Program </h2>
-        <p class="text_pp2 text-justify jumbotron">В этом курсе акцент сделан на изучение популярного web-фреймворка  <span class="word_highlight2">Django</span>. 
+        <p class="lead text_pp2 text-justify jumbotron">В этом курсе акцент сделан на изучение популярного web-фреймворка  <span class="word_highlight2">Django</span>. 
 			Используя <span class="word_highlight2">Django</span>, вы сможете значительно ускорить процесс web-разработки, создавать мощные и высоконагрузочные web-приложения.
 		 </p>
-		 <h2 class="head1 text-uppercase">Perspectives</h2>   
+		 <h2 class="head2 text-right uppercase">Perspectives</h2>   
 	<div class="lead">
-		<p>
+		<p class="text_pp3">
 			После обучения в этом курсе вы сможете легко претендовать на позицию <span class="word_highlight3">"Junior web developer"</span> <br>в ведущих IT-компаниях.
 		</p>
 	</div>
