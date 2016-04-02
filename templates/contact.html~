@@ -26,7 +26,7 @@
 	<h1>Contacts</h1>
 </div>
 <div>
-	<div>
+	<div class="text-capitalize">
 		<h3>Director</h3>
 			  
  		 <dl class="dl-horizontal">
@@ -40,7 +40,7 @@
     			<dd> <span class="glyphicon glyphicon-phone"></span> +380671111111</dd>	
     	 </dl>       
 	</div>
-	<div>
+	<div class="text-capitalize">
 		<h3>Manager</h3>
 		  <dl class="dl-horizontal">
     		 <dt>Name</dt>
@@ -53,7 +53,7 @@
     			<dd><span class="glyphicon glyphicon-phone"></span> +380672222222</dd>	
     	  </dl>       
 	</div>
-	<div>
+	<div class="text-capitalize">
 		<h3>Founder</h3>
 		 <dl class="dl-horizontal">
     		<dt>Name</dt>
@@ -67,6 +67,13 @@
     	 </dl>       
 	</div>
 </div>
+ <ul class="pager">
+    <li class="previous"><a href="index.html"><span class="glyphicon glyphicon-chevron-left"></span> Previous</a></li>
+ </ul>
+ <div class="panel panel-default text-center">
+     <div class="panel-footer"> @Pybursa2016 </div>
+ </div>
 </div>
+
 </body>
 </html>
