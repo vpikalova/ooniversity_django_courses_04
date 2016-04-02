@@ -1,3 +1,9 @@
+.table_bg1{
+	background-color: #FFE0B1;
+}
+.table_bg2{
+	background-color: #87E0B1;
+}
 .td_red {
 	color: red;
 	font-weight: bold;
@@ -32,7 +38,7 @@
 	font-family: 'PT Serif Caption', serif;
 }
 .text_pp{
-	background: #BFDE72; 
+	background-color: #BFDE72; 
 	border:2px solid white; 
 	 padding-top: 30px;
     padding-right: 30px;
@@ -40,7 +46,7 @@
     padding-left: 30px;
 }
 .text_pp2{
-	background:#BF8E97; 
+	background-color:#BF8E97; 
 	border:2px solid white; 
 	 padding-top: 30px;
     padding-right: 30px;
@@ -48,7 +54,7 @@
     padding-left: 30px;
     }
 .text_pp3{
-	background:#F2AD85; 
+	background-color:#F2AD85; 
 	border:2px solid white; 
 	 padding-top: 30px;
     padding-right: 30px;
