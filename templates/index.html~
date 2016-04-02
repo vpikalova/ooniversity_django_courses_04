@@ -20,6 +20,7 @@
     <ul class="nav navbar-nav">
       <li class="active"><a href="index.html">Main</a></li>
       <li><a href="contact.html">Contacts</a></li>
+      <li><a href="contact.html">Students</a></li>
     </ul>
   </div>
 </nav>
@@ -32,7 +33,7 @@
         <p class="lead text_pp2 text-justify jumbotron">В этом курсе акцент сделан на изучение популярного web-фреймворка  <span class="word_highlight2">Django</span>. 
 			Используя <span class="word_highlight2">Django</span>, вы сможете значительно ускорить процесс web-разработки, создавать мощные и высоконагрузочные web-приложения.
 		 </p>
-		 <h2 class="head2 text-right uppercase">Perspectives</h2>   
+		 <h2 class="head2 text-right">Perspectives</h2>   
 	<div class="lead">
 		<p class="text_pp3">
 			После обучения в этом курсе вы сможете легко претендовать на позицию <span class="word_highlight3">"Junior web developer"</span> <br>в ведущих IT-компаниях.

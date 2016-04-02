@@ -19,6 +19,7 @@
     <ul class="nav navbar-nav">
       <li><a href="index.html">Main</a></li>
       <li class="active"><a href="contact.html">Contacts</a></li>
+      <li><a href="contact.html">Students</a></li>
     </ul>
   </div>
 </nav>
@@ -70,6 +71,7 @@
 </div>
  <ul class="pager">
     <li class="previous"><a href="index.html"><span class="glyphicon glyphicon-chevron-left"></span> Previous</a></li>
+    <li class="next"><a href="student_list.html">Next <span class="glyphicon glyphicon-chevron-right"></span></a></li>
  </ul>
  <div class="panel panel-default text-center">
      <div class="panel-footer"> © 2016 PyBursa V Pikalova</div>
