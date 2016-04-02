@@ -23,12 +23,8 @@
   </div>
 </nav>
 <div class="container">
- <div class="head1">
-  	<h1 class="page-header text-right ">Курсы Python/Django от Pybursa</h1>
- </div> 
- <div class="head2">	
-  	<h2 class="text-uppercase text-right">Description</h2>
- </div> 	
+  	<h1 class="head1 page-header text-right ">Курсы Python/Django от Pybursa</h1>
+  	<h2 class="head2 text-uppercase text-right">Description</h2>
 	<div class="jumbotron text-justify">
 		<p>Курс <span class="word_highlight1">Python/Django</span> предназначен для начинающих программистов, которые уже имеют базовые знания <span class="word_highlight2">Python</span>
 			и хотят освоить этот язык на профессиональном уровне для web-разработки. 
@@ -56,6 +52,7 @@
    <div class="panel panel-default text-center">
     <div class="panel-footer">@Pybursa2016</div>
   </div>
+</div>
 </div>
 </body>
 </html>
