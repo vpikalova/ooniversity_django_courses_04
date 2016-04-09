@@ -1,3 +1,4 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html>
 
@@ -14,7 +15,7 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="index.html">PYBURSA <span class="glyphicon glyphicon-education"></span></a>
+      <a class="navbar-brand" href="{% url 'index' %}">PYBURSA <span class="glyphicon glyphicon-education"></span></a>
     </div>
     <ul class="nav navbar-nav">
       <li><a href="{% url 'index' %}">Main</a></li>
