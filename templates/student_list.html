@@ -21,7 +21,7 @@
       <li><a href="{% url 'index' %}">Main</a></li>
       <li><a href="{% url 'contact' %}">Contacts</a></li>
       <li class="active"><a href="{% url 'student_list' %}">Students</a></li>
-      <li><a href="{% quadratic 'templates/results' %}">Quadratic</a></li>
+      <li><a href="{% url 'results' %}">Quadratic</a></li>
     </ul>
   </div>
 </nav>
@@ -79,7 +79,7 @@
  		  
  <ul class="pager">
     <li class="previous"><a href="{% url 'contact' %}"><span class="glyphicon glyphicon-chevron-left"></span> Previous</a></li>
-    <li class="next"><a href="{% quadratic 'templates/results' %}">Next <span class="glyphicon glyphicon-chevron-right"></span></a></li>
+    <li class="next"><a href="{% url 'results' %}">Next <span class="glyphicon glyphicon-chevron-right"></span></a></li>
  </ul>
     <div class="panel panel-default text-center">
           <p class="panel-footer"> © 2016 PyBursa V Pikalova </p>
