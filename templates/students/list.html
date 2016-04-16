@@ -1,0 +1,78 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+	<meta name="description" content="PyBursa">
+	<title>{% block title %}Students Course {% endblock title %}</title>
+	<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+	<link href="{% static 'css/style.css' %}" rel="stylesheet">
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="{% url 'index' %}">PYBURSA <span class="glyphicon glyphicon-education"></span></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="{% url 'index' %}">Main</a></li>
+      <li><a href="{% url 'contact' %}">Contacts</a></li>
+      <li class="active"><a href="{% url 'students:list_view' %}">Students</a></li>
+      <li><a href="{% url 'results'  %}">Quadratic</a></li>
+    </ul>
+  </div>
+</nav>
+  
+   <ol class="breadcrumb">
+        <li><a href="{% url 'index' %}"><span>/ Main</span></a></li>
+        <li><a href="{% url 'students:list_view' %}"><span>Students </span></a></li>
+    </ol>
+    {% block content %}
+
+  <!-- Default panel contents -->
+
+    <h2 id = "header_table">Список студентов</h2>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <tr>
+                    <th>#</th>
+                    <th>фамилия имя</th>
+                    <th>адрес</th>
+                    <th>skype</th>
+                    <th>курсы</th>
+                </tr>
+                {% for i in students %}
+                <tr>
+                    <td>{{ i.id }}</td>
+                    <td><a href="{% url 'students:detail' i.id %}">{{i.surname}} {{ i.name }}</a></td>
+                    <td>{{ i.address }}</td>
+                    <td>{{ i.skype }}</td>
+                    <td> {% for course in i.courses.all %}
+                        <a href="{% url 'courses:detail' course.id %}">{{ course.name }}<br></a>
+                        {% endfor %}
+                    </td>
+                </tr> 
+                {% endfor %}
+            </table>   
+        </div>
+
+    {% endblock content %}         
+
+
+    <div class="container">
+    <ul class="pager">
+        <li class="next"><a href="{% url 'contact' %}">Next <span class="glyphicon glyphicon-chevron-right"></span></a></li>
+   </ul>	
+    <div>
+    	<div class="panel panel-default text-center">
+            <p class="panel-footer"> © 2016 PyBursa V Pikalova </p>
+        </div>
+    </div>    
+    </div>
+   </body>
+
+</html>

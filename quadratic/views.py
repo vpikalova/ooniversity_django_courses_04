@@ -14,12 +14,13 @@ def quadratic_results(request):
 
 	try:
 		a = int(request.GET['a'])
-	except ValueError:
+	except (ValueError, MultiValueDictKeyError):
 		if request.GET['a'].isalpha():
 			a_err = u"коэффициент не целое число"
 			a = request.GET['a']
 		else:
 			a_err = u"коэффициент не определен"
+
 
 	try:
 		b = int(request.GET['b'])
