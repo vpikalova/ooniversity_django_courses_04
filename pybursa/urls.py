@@ -5,6 +5,7 @@ from pybursa import views
 urlpatterns = patterns('',
     url(r'^courses/', include('courses.urls', namespace="courses")),
     url(r'^students/', include('students.urls', namespace="students")),
+    url(r'^coaches/', include('coaches.urls', namespace="coaches")),
     url(r'^polls/', include('polls.urls', namespace="polls")),
     url(r'^$', views.course_descript, name="index"),
     url(r'^admin/', include(admin.site.urls)),
