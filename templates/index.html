@@ -3,6 +3,15 @@
 {% block title %}Main PyBursa{% endblock title %}
 {% block nav_class_index %}active{% endblock %}
 {% block content %}
+
+{% if messages %}
+<div class = "alert alert-success" role="alert">
+   {% for message in messages %}
+      {{ message }}
+   {% endfor %}
+</div>
+{% endif %}
+
 <div class="container">
     <h1 class="head1">Python&amp;Django Courses from PyBursa</h1>
     <h2 class="head2 text-right">Description </h2>
@@ -18,12 +27,20 @@
 		</p>
 	</div>
 <h2 class="head2 text-right">Наши курсы</h2>   
+
+  <a href="{% url 'courses:add' %}" class="btn btn-success" role="button">
+       <span class="glyphicon glyphicon-plus"></span> 
+       Добавить новый курс
+    </a>
                 <div class="table-responsive">
                     <table class="table table-striped table-hover table-condensed">
                         <thead>
                             <tr>
+
                                 <th>Курс </th>
                                 <th>Описание </th>
+                                <th></th>
+                                <th></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -31,6 +48,18 @@
                             <tr>
                                 <td><a href="{% url 'courses:detail' x.id %}"><strong>{{ x.name|upper }}</strong></a></td>
                                 <td>{{ x.short_description|title }}</td>
+                                    <td>
+          <button class="btn btn-success" type="button">
+            <span class="glyphicon glyphicon-pencil"></span>
+            <a href="{% url 'courses:edit' x.id %}">Изменить</a>
+          </button>
+        </td>
+        <td>
+          <button class="btn btn-success" type="button">
+            <span class="glyphicon glyphicon-trash"></span>
+            <a href="{% url 'courses:remove' x.id %}">Удалить</a>                    
+          </button>
+        </td>   
                             </tr>   
                             {% endfor %}
                         </tbody>
