@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+
+{% block title %}New Student PyBursa{% endblock title %}
+
+
+{% block nav_class_students %}active{% endblock %}
+
+
+{% load staticfiles %}
+
+
+{% block content %}
+
+<div class="page-header"><h3 class="text-center">Создание нового студента</h3></div>
+	<div class="container">
+		<form method="post">
+			{% csrf_token %}          
+			{{ form.as_p }}
+			<input type="submit" value="Сохранить"/>
+		</form>
+    </div>
+</div>
+{% endblock content %}
