@@ -1,0 +1,39 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+	<meta name="description" content="PyBursa">
+	<title>{% block title %}{% endblock title%}</title>
+	<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+	<link href="{% static 'css/style.css' %}" rel="stylesheet">
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="{% url 'index' %}">PYBURSA <span class="glyphicon glyphicon-education"></span></a>
+    </div>
+    <ul class="nav navbar-nav">
+       <li class="{% block nav_class_index %}{% endblock %}"><a href="{% url 'index' %}">Main</a></li>
+       <li class="{% block nav_class_contact %}{% endblock %}"><a href="{% url 'contact' %}">Contacts</a></li>
+       <li class="{% block nav_class_students %}{% endblock %}"><a href="{% url 'students:list_view' %}">Students</a></li>
+         
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container">{% block content %}{% endblock %}</div>
+
+
+ <div class="panel panel-default text-center">
+    <p class="panel-footer"> © 2016 PyBursa V Pikalova </p>
+ </div>
+  
+ </body>
+
+</html>
+
