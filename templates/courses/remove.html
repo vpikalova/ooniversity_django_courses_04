@@ -1,7 +1,8 @@
+
 {% extends "base.html" %}
 
 
-{% block title %}Remove Course PyBursa{% endblock title %}
+{% block title %}{{ title }} ItBursa{% endblock title %}
 
 
 {% block nav_class_index %}active{% endblock %}
@@ -11,17 +12,14 @@
 
 
 {% block content %}
-<p><h3 class="text-center">Курс  {{ course.name }}  будет удален</h3></p>
-    <div class="container">
-        <form method="post">
-          {% csrf_token %}
-          {{ form.as_p }} 
-            <br />
-            <br />
-          <input type="submit" value="Удалить"/>
-     		<br />
-	    	<br />
-        </form>
-    </div>
-    <hr>
+
+<div class="page-header"><p><h3 class="text-center">Курс {{ course.name }} будет удален</h3></p></div>
+  <div class="container">
+    <form method="post">
+      {% csrf_token %}
+      {{ form.as_p }} 
+      <input type="submit" value="Удалить"/>
+    </form>
+  </div>
+</br>
 {% endblock content %}

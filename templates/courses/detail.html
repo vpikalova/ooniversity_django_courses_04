@@ -1,5 +1,7 @@
 {% extends "base.html" %}
-{% block title %}{{ course.name }} details PyBursa{% endblock title %}
+{% block title %}{{ title }} PyBursa{% endblock title %}
+{% block nav_class_index %}active{% endblock %}
+{% block students_list %}{% url 'student:list_view' %}?course_id=(( object.pk }}{% endblock students_list %}
 
 {% block content %}
   
@@ -54,10 +56,10 @@
         </tr>
         {% for i in lesson %}
         <tr>
-            <td>{{ i.order }}</td>
-      <td>{{ i.subject }}</td>
-      <td>{{ i.description }}</td>
-    </tr>
+          <td>{{ i.order }}</td>
+          <td>{{ i.subject }}</td>
+          <td>{{ i.description }}</td>
+        </tr>
     {% endfor %}
       </table>
     </div>
