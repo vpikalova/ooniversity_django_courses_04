@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+
+{% block title %}PyBursa Students{% endblock title %}
+
+
+{% block nav_class_students %}active{% endblock %}
+
+
+{% block content %}
+
+{% if messages %}
+<div class = "alert alert-success" role="alert">
+   {% for message in messages %}
+      {{ message }}
+   {% endfor %}
+</div>
+{% endif %}
+
+<div class="container">
+    <a href="/students/add/" class="btn btn-success" role="button">
+       <span class="glyphicon glyphicon-plus"></span> 
+       Добавить нового студента
+    </a>
+  <h2>Список студентов</h2>
+   
+    <div class="container">
+        <div class="table-responsive">
+            <table class="table table-striped">
+            <tr>
+              <th>#</th>
+        <th>Фамилия имя</th>
+        <th>адрес</th>
+        <th>Skype</th>
+        <th>курсы</th>
+    <th></th>
+    <th></th>
+            </tr>
+        {% for i in object_list %}
+      <tr>
+        <td>{{ i.id }}</td>
+        <td><a href="{% url 'students:detail' i.id %}">{{i.surname}} {{ i.name }}</a></td>
+        <td>{{ i.address}}</td>
+        <td>{{ i.skype }}</td>
+        <td> {% for course in i.courses.all %}
+          <a href="{% url 'courses:detail' course.id %}">{{ course.name }}<br></a>
+          {% endfor %}</td>
+        <td>
+          <button class="btn btn-success" type="button">
+      <span class="glyphicon glyphicon-pencil"></span>
+            <a href="{% url 'students:edit' i.id %}">Изменить</a>
+          </button>
+        </td>
+        <td>
+          <button class="btn btn-success" type="button">
+      <span class="glyphicon glyphicon-trash"></span>
+            <a href="{% url 'students:remove' i.id %}">Удалить</a>                    
+          </button>
+        </td>
+      </tr> 
+      {% endfor %}
+      </table>   
+    </div>
+    </div>
+</div>
+{% endblock content %} 
+Status API Training Shop Blog About

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+
+{% block title %}Itbursa New student{% endblock title %}
+
+
+{% block nav_class_students %}active{% endblock %}
+
+
+{% load staticfiles %}
+
+
+{% block content %}
+
+<div class="page-header"><h3 class="text-center">{{ title }}</h3></div>
+	<div class="container">
+		<form method="post">
+			{% csrf_token %}          
+			{{ form.as_p }}
+			<input type="submit" value="Сохранить"/>
+		</form>
+    </div>
+{% endblock content %}
