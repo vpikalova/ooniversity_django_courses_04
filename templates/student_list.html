@@ -25,6 +25,24 @@
     </ul>
   </div>
 </nav>
+<div class="pagination">
+<ul>
+          {% if page_obj.has_previous %}
+        <li>
+              <a href="?{% if request.GET.course_id %}course_id={{ request.GET.course_id }}&{% endif %}page={{ page_obj.previous_page_number }}"><< previous</a>
+        </li>
+        {% endif %}
+        <li>
+            <a>Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}</a>
+        </li>
+          {% if page_obj.has_next %}
+        <li>
+          <a href="?{% if request.GET.course_id %}course_id={{ request.GET.course_id }}&{% endif %}page={{ page_obj.next_page_number }}">next >></a>
+        </li>
+          {% endif %}
+
+    
+</ul>div>
 <div class="container">
         <h1 class="head1">Студенты курса PyBursa</h1> 
  		  <p>Ниже представлен список студентов этого года</p>
@@ -75,8 +93,10 @@
         <td>ben_crosby</td>
       </tr>
     </tbody>
-  </table>		  
- 		  
+  </table>	
+
+
+
  <ul class="pager">
     <li class="previous"><a href="{% url 'contact' %}"><span class="glyphicon glyphicon-chevron-left"></span> Previous</a></li>
     <li class="next"><a href="{% url 'results' %}">Next <span class="glyphicon glyphicon-chevron-right"></span></a></li>
@@ -85,5 +105,9 @@
           <p class="panel-footer"> © 2016 PyBursa V Pikalova </p>
     </div>
 </div>  
+
+
+ 
+
 </body>
 </html>
