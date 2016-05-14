@@ -112,4 +112,3 @@ class CoursesDetailTest(TestCase):
 										args=(1,)))
 		self.assertContains(response, course.name)
 
-Status API Training Shop Blog About
