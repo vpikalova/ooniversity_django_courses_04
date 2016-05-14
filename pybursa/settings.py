@@ -22,7 +22,7 @@ SECRET_KEY = 'lhy-g8a3(ibgr6!tab$*t1)4=%r+cj0l*u51s60r7lhp!#sbh-'
 DEBUG = False
 
 TEMPLATE_DEBUG = True
-
+5
 ALLOWED_HOSTS = ['localhost', '127.0.0.1',]
 
 
@@ -86,6 +86,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates'),)
