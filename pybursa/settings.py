@@ -21,9 +21,9 @@ SECRET_KEY = 'lhy-g8a3(ibgr6!tab$*t1)4=%r+cj0l*u51s60r7lhp!#sbh-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-TEMPLATE_DEBUG = True
-5
-ALLOWED_HOSTS = ['localhost', '127.0.0.1',]
+TEMPLATE_DEBUG = False
+
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -95,7 +95,7 @@ EMAIL_HOST = 'localhost'
 
 EMAIL_PORT = 1025
 
-EMAIL_HOST_USER = 'vpikalova'
+EMAIL_HOST_USER = 'wpikalova@gmail.com'
 
 EMAIL_HOST_PASSWORD = ''
 
